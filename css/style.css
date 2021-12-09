@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+header{
+  background-color: #FFCB05;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 100%;
+  padding: 3px;
+  }
+
 
 .header{
   min-height: 100vh;
@@ -78,7 +86,7 @@ nav img{
 }
 
 .text-box p{
-  margin: 10px 0 40px;
+  text-align: c;
   font-size: 20px;
 }
 
@@ -90,21 +98,71 @@ nav img{
   
 }
 
-img{
+.img-border{
   border:3px solid #FFCB05;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.img-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .grid{
     display: grid;
     grid-template-columns: 1fr;
-    border:3px solid #FFCB05;
 }
-.footer{
-  position: fixed;
+
+.skip-content{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-content a {
+  position: absolute;
+  top: -3em;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 0.5em 0.75em;
+}
+
+.skip-content a:focus{
+  top: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 4px;
+  grid-row-gap: 0px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+footer{
+  background-color: #FFCB05;
+  color: rgb(255, 255, 255);
   text-align: center;
-  background-color: #00274C;
-  color: #FFCB05;
-}
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 3px;
+  }
 
 /* @media only screen 
   and (min-device-width: 768px) 

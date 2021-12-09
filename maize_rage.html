@@ -13,8 +13,14 @@
     <title>Michigan Basketball</title>
 
   </head>
+
+  <ul class="skip-content">
+    <li><a href="#nav">Skip Navigation</a></li>
+    <li><a href="#main">Skip Main Content</a></li>
+  </ul>
+
   <body>
-    <section class="header">
+    <section class="header" id="nav">
       <nav>
         <a href="index.html"><img src="imgs/homepage_logo.png" alt = "logo"></a>
         <div class="nav-links">
@@ -22,16 +28,20 @@
             <li><a href = "index.html">Home</a></li>
             <li><a href = "staff.html">Staff</a></li>
             <li><a href = "players.html">Players</a></li>
-            <li><a href = "maize_rage.html">Maize Rage</a></li>
+            <li><a href = "maize_rage.html">* Maize Rage *</a></li>
           </ul>  
         </div>
 
       </nav>
-    <div class = "text-box">
+    <div class = "text-box" id="main">
       <h1>Michigan Basketball</h1>
       <h2>Maize Rage</h2>
       <h3>Who are We?</h3>
-      <img src= "imgs/MR 1.jpg" alt = "Maize Rage 1">
+
+      <div class="row">
+        <div class="column">
+
+      <img src= "imgs/MR 1.jpg" alt = "Maize Rage 1" class="img-border">
       <p>
         The Maize Rage is the student cheering section for the University of Michigan Men’s
         Basketball team. The Maize Rage emphasizes spirit and sportsmanship in its support
@@ -40,7 +50,7 @@
         and beyond.
       </p>
       <h3>Membership</h3>
-      <img src = "imgs/MR 2.jpg" alt = "Maize Rage 2">
+      <img src = "imgs/MR 2.jpg" alt = "Maize Rage 2" class="img-border">
       <p>
         All student section season ticket holders are official members of the Maize Rage.
         There are no mandatory requirements, fees, or dues associated with membership of
@@ -49,10 +59,32 @@
         greater hand in the formation, planning, and operations of the Maize Rage.
       </p>
     </div>
-    
-        
-  </section>
-  
+    </div>
+  </div>
+
+    <p>ㅤ</p>
+  <!-- modify this form HTML and place wherever you want your form -->
+<h3>Conact Us!</h3>
+  <form
+action="https://formspree.io/f/xrgjgegd"
+method="POST"
+>
+<label>
+  Your email:
+  <input type="email" name="_replyto">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
+
+<p>ㅤ</p>
+<p>ㅤ</p>
+<p>ㅤ</p>
+</section>
 <footer>
 <p>Umang Bhojani</p>
 </footer>
